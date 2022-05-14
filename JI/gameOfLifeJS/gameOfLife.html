@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="gameOfLife.css" />
+  </head>
+  <body>
+    <div id="grid"></div>
+    <div>
+      <h4>Current generation: <span id="generation-counter"></span></h4>
+      <h4>Toggle the cells by clicking them. Move menu by clicking on #.</h4>
+      <div id="flex-container" >
+      <div id="flex-container-header">#</div>
+        <input
+          type="button"
+          id="start-stop-button"
+          value="Start game"
+          onclick="startStopGame();"
+        />
+        <input
+          type="button"
+          id="reset-button"
+          value="Default settings"
+          onclick="resetGame();"
+        />
+        <input
+          type="button"
+          id="apply-button"
+          value="Apply settings"
+          onclick="configureGame();"
+        />
+        <div class="container">
+          <div>rows</div>
+          <input
+            type="number"
+            id="rows-input"
+            name="rows"
+            value="40"
+            min="20"
+            max="100"
+          />
+        </div>
+        <div class="container"> 
+          <div>columns</div>
+          <input
+            type="number"
+            id="columns-input"
+            name="columns"
+            value="40"
+            min="20"
+            max="100"
+          />
+        </div>
+        <div class="container"> 
+          <div>survival rule</div>
+          <input
+            id="survival-rule-input"
+            name="survival rule"
+            value='12345'
+          />
+        </div>
+        <div class="container"> 
+          <div>birth rule</div>
+          <input
+            id="birth-rule-input"
+            name="birth rule"
+            value='3'
+          />
+        </div>
+        <div class="container"> 
+          <div>evolution interval time(ms)</div>
+          <input
+          type="number"
+            id="interval-time-input"
+            name="interval time"
+            value='500'
+            min="20"
+            max="200000"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="gameOfLife.js"></script>
+  </body>
+</html>

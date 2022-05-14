@@ -1,0 +1,31 @@
+\question Domieszkowanie jest używane w:
+\Banswer
+\ca Ruby
+\ica Javie
+\ica Prologu
+\ica Haskellu
+\Eanswer
+
+\question Rodzaj programowania imperatywnego, którego powstanie było związane z polepszeniem jakości kodu to:
+\Banswer
+\ca programowanie strukturalne
+\ica programowanie w logice
+\ica programowanie funkcyjne
+\ica programowanie deklaratywne
+\Eanswer
+
+\question Funkcje anonimowe można tworzyć w Haskellu za pomocą:
+\Banswer
+\ca wyrażeń lambda
+\ica inferencji typów
+\ica nie da się takich tworzyć – każda funkcja musi być nazwana
+\ica rekurencji
+\Eanswer
+
+\question Przed nazwą interfejsu w Javie przy implementacji tegoż interfejsu jest zapisywane słowo kluczowe:
+\Banswer
+\ica extends
+\ica extend
+\ca implements
+\ica public
+\Eanswer

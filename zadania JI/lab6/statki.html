@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Statki</title>
+  <link rel="stylesheet" href="statki.css" />
+</head>
+
+<body>
+  <div class="vertical-center">
+    <button id="rotateButton">rotate ships</button>
+  </div>
+  <div class="shipsContainer">
+    <div class="ship" draggable="true">
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="ship" draggable="true">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <h2 id="turnIndicator"></h2>
+  <div class="scroll-wrapper">
+    <div class="gridsContainer">
+      <div class="left-container">
+        <p class="title">Your board</p>
+        <div id="playerGridContainer"></div>
+      </div>
+      <div class="spacer"></div>
+      <div class="right-container">
+        <p class="title">Enemy board</p>
+        <div id="computerGridContainer"></div>
+      </div>
+    </div>
+  </div>
+  <div class="vertical-center">
+    <button id="startButton">start</button>
+  </div>
+  <script src="statki.js"></script>
+</body>
+
+</html>

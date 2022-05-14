@@ -1,0 +1,96 @@
+#world {
+  padding-bottom: 10px;
+}
+table {  
+  background-color: gray;
+}
+td {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+td {
+  background-color: transparent;
+}
+
+.scroll-wrapper {
+  overflow-x: auto;
+}
+
+.spacer {
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.title{
+  text-align: center;
+}
+
+.vertical-center{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  text-align: center;
+  margin: 15px;
+  height: 30px;
+  width: 100px;
+}
+
+.shot {
+  width: 16px;
+  height: 16px;
+  margin: 7px;
+  border-radius: 5px;
+}
+
+.hit {
+  background-color: red;
+}
+
+td.occupied {
+  background-color: green;
+}
+
+.miss {
+  background-color: white;
+}
+
+.container {
+  padding: 5px;
+}
+
+.gridsContainer {
+  margin: 0 auto;
+  width: fit-content;
+  min-width: 790px;
+  justify-content: center;
+  padding: 5px;
+  display: flex;
+}
+
+.left-container, .right-container {
+  flex: 1 0 auto;
+}
+
+.ship {
+  padding: 5px;
+  display: inline-flex;
+}
+
+.ship.notHorizontal {
+  flex-direction: column;
+}
+
+.ship > div {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  background-color: green;
+}
+
+.shipsContainer {
+  justify-content: center;  
+  display: flex;
+}

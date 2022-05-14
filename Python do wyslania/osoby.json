@@ -1,0 +1,55 @@
+{
+  "dane":
+[	
+	{
+	"student" : {
+		"nazwisko" : "Kowal",
+		"imie" : "Prokop",
+		"adres" : {
+			"ulica" : "Wesoła",			
+			"numer" : 12,						
+			"miejscowosc" :	"Warszawa"	
+		}
+	}},	
+	{
+	"student" : {
+		"nazwisko" : "Nowak",
+		"imie" : "Łukasz",
+		"adres" : {
+			"ulica" : "Radomska",			
+			"numer" : 10,						
+			"miejscowosc" :	"Chałupy"	
+		}
+	}},		
+	{
+	"student" : {
+		"nazwisko" : "Rydz",
+		"imie" : "Tadeusz",
+		"adres" : {
+			"ulica" : "Warszawska",			
+			"numer" : 100,						
+			"miejscowosc" :	"Solina"	
+		}
+	}},
+	{
+	"student" : {
+		"nazwisko" : "Lacki",
+		"imie" : "Marek",
+		"adres" : {
+			"ulica" : "Łącka",			
+			"numer" : 53,						
+			"miejscowosc" :	"Łódź"	
+		}
+	}},
+	{
+	"student" : {
+		"nazwisko" : "Babacki",
+		"imie" : "Jan",
+		"adres" : {
+			"ulica" : "Gwiezdna",			
+			"numer" : 44,						
+			"miejscowosc" :	"Warszawa"	
+		}
+	}}
+]
+}

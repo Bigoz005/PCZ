@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane>
+	<student nazwisko="Kowal" imie="Prokop">
+		<adres>
+			<ulica>
+				Wesoła
+			</ulica>
+			<numer>
+				12
+			</numer>
+			<miejscowosc>
+				Warszawa
+			</miejscowosc>			
+		</adres>
+	</student>
+	<student nazwisko="Nowak" imie="Łukasz">
+		<adres>
+			<ulica>
+				Radomska
+			</ulica>
+			<numer>
+				10
+			</numer>
+			<miejscowosc>
+				Chałupy
+			</miejscowosc>
+		</adres>
+	</student>
+	<student nazwisko="Rydz" imie="Tadeusz">
+		<adres>
+			<ulica>
+				Warszawska
+			</ulica>
+			<numer>
+				100
+			</numer>
+			<miejscowosc>
+				Solina
+			</miejscowosc>
+		</adres>
+	</student>
+	<student nazwisko="Lacki" imie="Marek">
+		<adres>
+			<ulica>
+				Łącka
+			</ulica>
+			<numer>
+				53
+			</numer>
+			<miejscowosc>
+				Łódź
+			</miejscowosc>
+		</adres>
+	</student>
+	<student nazwisko="Babacki" imie="Jan">
+		<adres>
+			<ulica>
+				Gwiezdna
+			</ulica>
+			<numer>
+				44
+			</numer>
+			<miejscowosc>
+				Warszawa
+			</miejscowosc>
+		</adres>
+	</student>
+</dane>
